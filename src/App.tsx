@@ -64,7 +64,6 @@ function App() {
           Lista de Tarefas
         </h1>
 
-        {/* SEARCH */}
         <div className="mb-6">
           <input
             type="text"
@@ -75,7 +74,6 @@ function App() {
           />
         </div>
 
-        {/* LISTA */}
         <div className="space-y-3">
           {filteredTodos.length === 0 && (
             <p className="text-center text-gray-400">
@@ -121,7 +119,6 @@ function App() {
           ))}
         </div>
 
-        {/* FORM */}
         <form
           onSubmit={handleSubmit}
           className="mt-6 bg-gray-800 p-4 rounded-lg shadow"
