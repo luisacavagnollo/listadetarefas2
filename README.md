@@ -1,3 +1,7 @@
+Link do git: https://github.com/luisacavagnollo/listadetarefas2.git
+
+Precisa ter o node.js instalado pra funcionar e rodar um npm install e um npm run dev para abrir o localhost, bj sor.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
